@@ -1,0 +1,158 @@
+.qara{
+    background: #000;
+}
+
+.qirmizi{
+    color: #e9204f;
+}
+
+.qirmiziback{
+    background: #e9204f;
+}
+
+.boz{
+    background: rgb(36, 36, 36);
+}
+
+.lapboz{
+    background: rgb(17, 17, 17);
+}
+
+.kol{
+    background: rgb(41, 40, 40);
+}
+
+.xett{
+    width: 70px;
+    height: 1px;
+    background: #e9204f;
+}
+
+.bozxett{
+    width: 50px;
+    height: 1px;
+    background: #ddd;
+}
+
+.balacaxett{
+    width: 50px;
+    height: 3px;
+    background: #e9204f;
+}
+
+.asagi{
+    margin-top: 100px;
+}
+
+.uzaq{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.b{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+#Header{
+    h1{
+        font-size: 50px;
+    }
+    input:hover{
+        background: #e9204f;
+        cursor: pointer;
+    }
+}
+
+#DigitalAgency{
+    h1{
+        color: #fff;
+        text-decoration-style: solid;
+        font-size: 78px;
+        font-weight: 700;
+        padding-top: 70px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .col-md-4:hover{
+        background: #e9204f;
+    }
+}
+    
+#Service{
+    .col-md-4:hover{
+        color: #fff;
+        background: #e9204f;
+        cursor: pointer;
+        text-align: center;
+    };
+    .col-md-10:hover{
+        i{font-size: 30px;
+        color: white;
+    text-align: left};
+    }
+}
+
+
+.ciyelek{margin-top: 20px;}
+
+.button1 {
+    border: 1px solid black;
+    border-radius: 3px;
+    display: block;
+  
+    background: linear-gradient(to right, #e9204f 50%,rgb(36, 36, 36) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .4s ease-out;
+  }
+  
+  .button1:hover {
+    background-position: left bottom;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px; 
+    color: black;
+    transition: all .4s ease-out;
+    display: block;
+  }
+  
+  .text:hover {
+    color: white;  
+  }
+
+  .button2 {
+    border: 1px solid black;
+    border-radius: 3px;
+    display: block;
+  
+    background: linear-gradient(to right, #e9204f 50%, #000 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .4s ease-out;
+  }
+  
+  .button2:hover {
+    background-position: left bottom;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px; 
+    color: black;
+    transition: all .4s ease-out;
+    display: block;
+  }
+  
+  .text:hover {
+    color: white;  
+  }
+
+#Footer{
+    
+    
+}

@@ -1,0 +1,167 @@
+.qara {
+  background: #000; }
+
+.qirmizi {
+  color: #e9204f; }
+
+.qirmiziback {
+  background: #e9204f; }
+
+.boz {
+  background: #242424; }
+
+.lapboz {
+  background: #111111; }
+
+.kol {
+  background: #292828; }
+
+.xett {
+  width: 70px;
+  height: 1px;
+  background: #e9204f; }
+
+.bozxett {
+  width: 50px;
+  height: 1px;
+  background: #ddd; }
+
+.balacaxett {
+  width: 50px;
+  height: 3px;
+  background: #e9204f; }
+
+.asagi {
+  margin-top: 100px; }
+
+.uzaq {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.b {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999; }
+
+#Header h1 {
+  font-size: 50px; }
+#Header input:hover {
+  background: #e9204f;
+  cursor: pointer; }
+
+#DigitalAgency h1 {
+  color: #fff;
+  text-decoration-style: solid;
+  font-size: 78px;
+  font-weight: 700;
+  padding-top: 70px;
+  font-family: Arial, Helvetica, sans-serif; }
+#DigitalAgency .col-md-4:hover {
+  background: #e9204f; }
+
+#Service .col-md-4:hover {
+  color: #fff;
+  background: #e9204f;
+  cursor: pointer;
+  text-align: center; }
+#Service .col-md-10:hover i {
+  font-size: 30px;
+  color: white;
+  text-align: left; }
+
+.ciyelek {
+  margin-top: 20px; }
+
+.button1 {
+  border: 1px solid black;
+  border-radius: 3px;
+  display: block;
+  background: linear-gradient(to right, #e9204f 50%, #242424 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .4s ease-out; }
+
+.icon i {
+  border-radius: 50%;
+  color: #fff;
+  border-color: #e9204f !important;
+  font-size: 20px;
+  padding: 0.7em;
+  border-style: solid;
+  border-width: 2px
+}
+
+
+
+.line {
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+  width: 40px;
+  height: 2px;
+  background-color: #e9204f; }
+
+.col-md-4:hover i {
+  color: #e9204f; }
+
+.button1:hover {
+  background-position: left bottom; }
+
+.text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  color: black;
+  transition: all .4s ease-out;
+  display: block; }
+
+.text:hover {
+  color: white; }
+
+.button2 {
+  border: 1px solid black;
+  border-radius: 3px;
+  display: block;
+  background: linear-gradient(to right, #e9204f 50%, #000 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .4s ease-out; }
+
+.button2:hover {
+  background-position: left bottom; }
+
+.text {
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px;
+  color: black;
+  transition: all .4s ease-out;
+  display: block; }
+
+.text:hover {
+  color: white; }
+
+/*# sourceMappingURL=style.css.map */
+/* override position and transform in 3.3.x */
+.carousel-inner .item.left.active {
+  transform: translateX(-33%);
+}
+.carousel-inner .item.right.active {
+  transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+  transform: translateX(33%)
+}
+.carousel-inner .item.prev {
+  transform: translateX(-33%)
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left { 
+  transform: translateX(0);
+}
+
+
+.carousel-control.left,.carousel-control.right {background-image:none;}
